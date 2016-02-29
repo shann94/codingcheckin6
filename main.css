@@ -1,10 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
 body {
 background: #ffffff url("wood.jpg");
 background-attachment: fixed;
 background-color: #457457;
 margin: 0px 50px 0px 50px;
 height: 100%;
-position:relative;
+position:relative;;
 }
 
 p {
@@ -12,7 +15,8 @@ width: 230px;
 float: left;
 margin: 5px;
 padding: 5px;
-background-color: #457457;}
+background-color: #457457;
+font-family: 'Roboto', sans-serif;}
 
 .menu {float: left;}
 
@@ -22,16 +26,22 @@ position: relative;
 text-align: Left;
 padding-left: 300px;
 color: #957DA8;
-top: -50px;}
+top: -50px;
+font-family: 'Anton', sans-serif;}
 
 
 h1 {
 text-align: Left;
 padding-left: 200px;
 color: #957DA8;
-font-size: 400%;}
+font-size: 400%;
+font-family: 'Anton', sans-serif;}
 
 table {margin: auto;}
+
+tr {font-family: 'Roboto', sans-serif;
+font-style: oblique;}
+td {font-family: 'Roboto', sans-serif;}
 
 
 #header {
